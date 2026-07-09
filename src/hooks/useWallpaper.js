@@ -10,7 +10,7 @@ export default function useWallpaper (Category, pageSize, page) {
         .then((res) => {
             setData(res.items)
         })
-    }, [Category])
+    }, [Category, pageSize, page])
 
     console.log(data)
     return data
