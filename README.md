@@ -1,16 +1,52 @@
-# React + Vite
+# waifu_wallpaper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive anime wallpaper gallery built with React and Tailwind CSS. The application fetches wallpapers from the Waifu.im API and allows users to browse wallpapers by category and control the number of images displayed.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Browse wallpapers by category
+* Select the number of wallpapers displayed per page
+* Custom React Hook for data fetching
+* Responsive user interface with Tailwind CSS
+* Dynamic rendering using React state and props
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Tailwind CSS
+* Waifu.im API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/waifu_wallpaper.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+* Pagination
+* Infinite scrolling
+* Fullscreen image preview
+* Download wallpapers
+* Search functionality
+* Favorite wallpapers
+* Image modal with additional details
+
+## License
+
+This project is licensed under the MIT License.
